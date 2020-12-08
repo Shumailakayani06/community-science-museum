@@ -1,0 +1,317 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+  
+    
+  }
+
+  header {
+      
+      min-height: 80px;
+  }
+
+  .logo {
+      max-width: 150px;
+  }
+
+  h1 {
+      text-align: center;
+  }
+
+
+  /* home picture */
+
+  .homepic {
+      background-image: url(/Images/homepic.jpg);
+      height: 70vh;
+      background-size: cover;
+  }
+
+
+  .button {
+    display: inline-block;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 4px;
+    border-style: solid;
+    padding: 0.5em 1.75em;
+    color: white;
+    background: #2D96ED;
+  }
+
+
+.button:hover,
+.button:focus {
+  background: white;
+  color: #2D96ED;
+}
+
+
+.container {
+    position: relative;
+    top: 85%;
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Top nav bar */
+
+  nav {
+
+    display: none;
+ 
+  }
+
+  nav ul {
+      padding: 0px 10px;
+      text-align: center;
+  }
+
+  nav li {
+      display: inline-block; 
+      text-decoration: none
+  }
+
+  nav a {
+      text-decoration: none;
+      color: white;
+      background-color: black;
+      padding: 10px;
+      display: inline-block;
+
+      
+  }
+
+  #hamburger-menu {
+      display: none;
+  }
+
+  #hamburger-menu:checked ~ nav {
+      display: block;
+  }
+
+  i.fas.fa-bars {
+      float: right;
+      color: black;
+      padding: 20px;
+      font-size: 1.5em;
+      display: block;
+  }
+
+  nav a:hover{
+      color: black;
+      background-color: white;
+     
+  }
+
+  
+
+
+
+  /* quick links */
+
+  .quicklinkdiv {
+
+    padding: 20px;
+  }
+
+  .quicklink {
+      text-decoration: none;
+      display: inline-block;
+      font-size: 2em;
+      margin: 20px;
+      margin-bottom: 0;
+     
+      
+      
+  }
+
+  .quicklinkul {
+      text-align: center;
+     
+      margin-left: 0;
+      
+  }
+
+  i.far.fa-clock {
+      background-color: #2D96ED;
+      color: white;
+      padding: 10px;
+      border-radius: 50px;
+  }
+
+  i.fas.fa-landmark {
+    background-color: #DB66ED;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+
+  }
+
+  i.fas.fa-info {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+
+  }
+
+  .quicklinktextli {
+      display: inline-block;
+      margin: 1em;
+  }
+
+  .quicklinktext {
+      text-align: center;
+      margin-top: 0;
+  }
+
+  .quicklinktext a {
+      text-decoration: none;
+      color: black;
+  }
+
+  .quicklink:hover {
+      
+  }
+
+
+
+  /* pictures */
+
+  .pictures {
+      text-align: center;
+      margin-top: 3em;
+      padding-top: 10px;
+      max-width: 500px;
+      
+      
+  }
+
+  .text {
+      text-align: center;
+      margin-bottom: 2em;
+  }
+
+  h2 {
+      text-align: center;
+  }
+
+  .picture {
+     
+  }
+
+
+
+
+
+  .linka {
+
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    font-weight: 400;
+    
+  }
+
+
+  /* Social icons */
+
+  .socialli {
+      display: inline-block;
+      font-size: 1.5em;
+      margin: 20px;
+      
+
+
+  }
+
+  .socialul {
+      text-align: center;  
+    
+    }
+
+
+    /* footer */
+
+    .qlul a {
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+        
+    }
+
+    .qlli {
+        
+        list-style: none;
+        padding: 10px;
+    }
+
+    .qlul {
+        text-align: center;
+
+    }
+
+   /* visit us*/
+    /* text box */  
+
+.home-about-textbox {
+    background-color: white;
+    padding: 4em;
+    width: 100%vw;
+    margin-left: 0%;
+    outline: 2px solid #5D2ABF;
+    outline-offset: -2.5em;
+    color: black;
+    position: relative;
+  }
+  
+  .home-about-textbox h2 {
+    color: #5D2ABF;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0.3em;
+    background: white;
+    padding: 0 0.25em;
+    text-align: center;
+  }
+
+
+  table {
+    width: 400px;;
+  }
+
+  .locationtable {
+      text-align: left;
+  }
+
+  .visitp {
+      text-align: center;
+  }
+
+      
+
+
