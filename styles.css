@@ -198,6 +198,18 @@
   }
 
 
+  /* Main home links */ 
+
+  .mainhomelink {
+      text-decoration: none;
+      color: black;
+  }
+
+  .mainhomelink:hover {
+      color: #2D96ED;
+  }
+
+
 
   /* pictures */
 
@@ -219,9 +231,7 @@
       text-align: center;
   }
 
-  .picture {
-     
-  }
+ 
 
 
 
@@ -234,6 +244,11 @@
     color: black;
     font-weight: 400;
     
+  }
+
+  .linka:hover {
+      color: #2D96ED;
+      
   }
 
 
@@ -279,6 +294,17 @@
 
     }
 
+    .qlli a:hover {
+        text-decoration: none;
+       
+        
+        display: inline-block;
+        text-decoration: underline;
+        
+  
+        
+    }
+
    /* visit us*/
     /* text box */  
 
@@ -307,6 +333,7 @@
 
   table {
     width: 300px;
+    padding: 10px;
   }
 
   .locationtable {
@@ -316,6 +343,70 @@
   .visitp {
       text-align: center;
   }
+
+
+
+
+  /* contact us */
+
+  table td {
+      padding: 20px;
+  }
+
+
+  .contactli {
+    list-style: none;
+    margin: 20px;
+    
+    
+    
+}
+
+.contactul {
+    background-color: white;
+    padding: 20px;
+}
+
+
+.contact-column-li {
+  list-style: none;
+  margin: 20px;
+  display: block;
+  position: relative;
+  
+  
+}
+
+.contact-column-ul a{
+    color: white;
+    
+
+}
+
+.contact-column-ul {
+    background-color: black;
+}
+
+.contactbutton {
+    color: white;
+    border-color: #5D2ABF;
+    background-color: #5D2ABF;
+    font-size: 1rem;
+    border-width: 4px;
+    padding: 0.2em 1em;
+
+}
+
+.contactbutton:hover {
+    color: #5D2ABF;
+}
+
+
+
+
+
+
+ 
 
       
 
