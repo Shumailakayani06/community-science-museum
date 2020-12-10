@@ -233,6 +233,7 @@
       text-align: center;
       margin-top: 0;
       font-size: 0.8em;
+      padding-left: 0;
   }
 
   .quicklinktext a {
@@ -249,6 +250,10 @@
       
   }
 
+  .quicklinkul {
+      padding-left: 0;
+  }
+
   @media (min-width: 43rem) {
       .quicklink {
           font-size: 2.5em;
@@ -260,6 +265,10 @@
 
       .quicklinktext {
           font-size: 1.2em;
+      }
+
+      .quicklinkul {
+          padding-left: 0;
       }
   }
 
@@ -289,14 +298,7 @@
 
   /* pictures */
 
-  .pictures {
-      text-align: center;
-      margin-top: 3em;
-      padding-top: 10px;
-      max-width: 500px;
-      
-      
-  }
+  
 
   .text {
       text-align: center;
@@ -327,6 +329,14 @@
       
   }
 
+  .picsection {
+    border: 5px solid blue;
+    width: 100%;
+    text-align: center;
+    border: none;
+    
+}
+
 
   @media (min-width: 43rem) {
   .picsection {
@@ -345,7 +355,7 @@
 
       .text {
           display: inline-block;
-         padding: 1.5em;
+         padding: 1em;
           text-align: center;
           font-size: 1.3em;
       }
@@ -374,14 +384,7 @@
           left: 25%;
       }
 
-      .visitmap {
-          
-          position: relative;
-          width: 700px ;
-          height: 300px;
-          
-
-      }
+ 
 
       .explore3 {
           width: 300px;
@@ -396,6 +399,15 @@
       h1 {
           margin: 5rem;
       }
+
+      .visitmap1 {
+        background-image: url(/Images/visitpic2.jpg);
+        height: 50vh;
+    }
+
+    .visitpic {
+        display: none;
+    }
 
      
 
@@ -645,13 +657,7 @@
 
 
 
-.contactform {
-    
-}
 
-.contactli {
-    
-}
 
 
  
