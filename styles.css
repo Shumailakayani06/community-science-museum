@@ -517,12 +517,13 @@
 .home-about-textbox {
     background-color: white;
     padding: 2em;
-    width: 100%vw;
+    width: 100%vm;
     margin-left: 0%;
     outline: 2px solid #5D2ABF;
     outline-offset: -2.5em;
     color: black;
     position: relative;
+    text-align: center;
   }
   
   .home-about-textbox h2 {
@@ -534,6 +535,11 @@
     background: white;
     padding: 0 0.25em;
     text-align: center;
+  }
+
+   .home-about {
+    display: flex;
+    justify-content: center;
   }
 
 
@@ -552,13 +558,11 @@
 
   @media (min-width: 43rem) {
           table {
-              width: 650px;
+              width: 300px;
               margin-left: 50px;
           }
 
-          .home-about-textbox {
-              width: 80%vw;
-          }
+         
 
         
      
@@ -570,7 +574,7 @@
        font-size: 1.5em;
    }
    table {
-       width: 900px;
+       width: 900px
    }
 
    .visitpic {
@@ -579,23 +583,12 @@
 
    .visitmap1 {
        background-image: url(/Images/visitpic2.jpg);
-       height: 50vh;
+       height: 75vh;
    }
+
+  
   }
 
-  @media (min-width: 65rem) {
-      table {
-          width: 1000px;
-      }
-  }
-
-  @media (min-width: 75rem) {
-    table {
-        width: 1250px;
-    }
-
- 
-}
 
 
 
@@ -653,6 +646,16 @@
 
 .contactbutton:hover {
     color: #5D2ABF;
+}
+
+@media (max-width: 43rem) {
+
+textarea {
+    width: 100%;
+}
+
+
+
 }
 
 
