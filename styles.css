@@ -513,9 +513,7 @@
 
     }
 
-    h3 {
-        color: white;
-    }
+  
 
    /* visit us*/
     /* text box */  
@@ -592,6 +590,17 @@
        height: 75vh;
    }
 
+   .textbox-visit {
+       text-align: center;
+       
+   }
+
+   .visitdata {
+       text-align: left;
+   }
+
+
+
   
   }
 
@@ -654,15 +663,46 @@
     color: #5D2ABF;
 }
 
-@media (max-width: 43rem) {
+
 
 textarea {
     width: 100%;
 }
 
-
-
+input {
+    border: none;
+    border-bottom: 2px solid gray;
 }
+
+label {
+    color: gray;
+}
+
+
+@media (min-width: 43rem) {
+    textarea {
+        width: 50%;
+        
+        
+    }
+
+    input {
+        width: 300px;
+        height: 40px;
+        border: none;
+        border-bottom: 2px solid grey;
+    }
+
+    label {
+        font-size: 1.2em;
+        color: grey;
+    }
+
+    
+}
+
+
+
 
 
 
